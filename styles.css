@@ -301,3 +301,260 @@ footer {
   padding: 2rem;
 }
 
+/* Mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  nav ul {
+    display: none; /* Hide the navigation menu on smaller screens */
+  }
+
+  .hamburger {
+    display: block; /* Show a hamburger menu for mobile */
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .hero {
+    flex-direction: column; /* Stack elements vertically on mobile */
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem; /* Reduce the heading size for mobile */
+  }
+
+  .intro-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem; /* Adjust paragraph font size */
+    line-height: 1.4rem; /* Tighter line height for mobile */
+  }
+
+  .btn {
+    font-size: 1rem; /* Reduce button text size */
+    padding: 0.5rem 1rem; /* Adjust button padding */
+  }
+
+  .packages, .terms {
+    max-width: 100%; /* Full width on mobile */
+    padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  .pack, .cond {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+    gap: 0.5rem;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: 0.8rem; /* Smaller footer text */
+  }
+
+  /* Additional adjustments */
+  h2, h3 {
+    font-size: 1.6rem; /* General heading size for mobile */
+  }
+
+  p, li, a {
+    font-size: 1rem; /* General text size for better readability */
+  }
+
+  .logo {
+    font-size: 1.5rem; /* Smaller logo size */
+  }
+}
+/* Mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  nav ul {
+    display: none; /* Hide the navigation menu on smaller screens */
+  }
+
+  .hamburger {
+    display: block; /* Show a hamburger menu for mobile */
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .hero {
+    flex-direction: column; /* Stack elements vertically on mobile */
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem; /* Reduce the heading size for mobile */
+  }
+
+  .intro-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem; /* Adjust paragraph font size */
+    line-height: 1.4rem; /* Tighter line height for mobile */
+  }
+
+  .btn {
+    font-size: 1rem; /* Reduce button text size */
+    padding: 0.5rem 1rem; /* Adjust button padding */
+  }
+
+  .packages, .terms {
+    max-width: 100%; /* Full width on mobile */
+    padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  .pack, .cond {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+    gap: 0.5rem;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: 0.8rem; /* Smaller footer text */
+  }
+
+  /* Additional adjustments */
+  h2, h3 {
+    font-size: 1.6rem; /* General heading size for mobile */
+  }
+
+  p, li, a {
+    font-size: 1rem; /* General text size for better readability */
+  }
+
+  .logo {
+    font-size: 1.5rem; /* Smaller logo size */
+  }
+}
+/* Mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  nav ul {
+    display: none; /* Hide the navigation menu on smaller screens */
+  }
+
+  .hamburger {
+    display: block; /* Show a hamburger menu for mobile */
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .hero {
+    flex-direction: column; /* Stack elements vertically on mobile */
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem; /* Reduce the heading size for mobile */
+  }
+
+  .intro-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem; /* Adjust paragraph font size */
+    line-height: 1.4rem; /* Tighter line height for mobile */
+  }
+
+  .btn {
+    font-size: 1rem; /* Reduce button text size */
+    padding: 0.5rem 1rem; /* Adjust button padding */
+  }
+
+  .packages, .terms {
+    max-width: 100%; /* Full width on mobile */
+    padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  .pack, .cond {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+    gap: 0.5rem;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: 0.8rem; /* Smaller footer text */
+  }
+
+  /* Additional adjustments */
+  h2, h3 {
+    font-size: 1.6rem; /* General heading size for mobile */
+  }
+
+  p, li, a {
+    font-size: 1rem; /* General text size for better readability */
+  }
+
+  .logo {
+    font-size: 1.5rem; /* Smaller logo size */
+  }
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  nav ul {
+    display: none; /* Hide the navigation menu on smaller screens */
+  }
+
+  .hamburger {
+    display: block; /* Show a hamburger menu for mobile */
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .hero {
+    flex-direction: column; /* Stack elements vertically on mobile */
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem; /* Reduce the heading size for mobile */
+  }
+
+  .intro-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem; /* Adjust paragraph font size */
+    line-height: 1.4rem; /* Tighter line height for mobile */
+  }
+
+  .btn {
+    font-size: 1rem; /* Reduce button text size */
+    padding: 0.5rem 1rem; /* Adjust button padding */
+  }
+
+  .packages, .terms {
+    max-width: 100%; /* Full width on mobile */
+    padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  .pack, .cond {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+    gap: 0.5rem;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: 0.8rem; /* Smaller footer text */
+  }
+
+  /* Additional adjustments */
+  h2, h3 {
+    font-size: 1.6rem; /* General heading size for mobile */
+  }
+
+  p, li, a {
+    font-size: 1rem; /* General text size for better readability */
+  }
+
+  .logo {
+    font-size: 1.5rem; /* Smaller logo size */
+  }
+}
