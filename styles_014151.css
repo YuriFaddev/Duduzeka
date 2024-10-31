@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+
+
+/* CSS Variables */
+
+:root {
+
+  --normal-font: 400;
+
+  --bold-font: 600;
+
+  --bolder-font: 900;
+
+  --primary-color: #0652dd;
+
+  --secondary-color: #eaa320;
+
+  --line-height: 1.5rem;
+
+  --transition: 0.4s ease-in;
+
+}
+
+
+
+/* Smooth scroll effect */
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+
+
+
+/* Resets */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  transition: var(--transition);
+
+}
+
+
+
+ body {
+
+  font-family: "Roboto", sans-serf;
+
+  background-color: #333;
+
+  color: #fff;
+
+}
+
+
+
+ul li {
+
+  list-style-type: none;
+
+}
+
+
+
+a {
+
+  text-decoration: none;
+
+  color: var(--primary-color);
+
+}
+
+
+
+a:hover {
+
+  color: var(--secondary-color);
+
+}
+
+
+
+.fist {
+
+  color: var(--secondary-color);
+
+}
+
+
+
+.jab {
+
+  color: var(--primary-color);
+
+}
+
+
+
+.tv {
+
+  color: var(--secondary-color);
+
+}
+
+
+
+nav {
+
+  background:#333;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: left;
+
+  padding: 1rem 0.8em;
+
+  box-shadow: 2px 3px 2px #eaa320;
+
+  position: sticky;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: 1;
+
+}
+
+
+
+.hamburger {
+
+  display: none;
+
+}
+
+
+
+.logo {
+
+  font-size: 3rem;
+
+  font-weight: 900;
+
+}
+
+
+
+ul {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+
+
+.nav-item {
+
+  margin-left: 2rem;
+
+}
+
+
+
+.nav-link {
+
+  font-weight: var(--bold-font);
+
+}
+
+
+
+
+
+/* Hero phase*/
+
+.hero{
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+ 
+  max-width: 1100px;
+
+  margin: 2rem auto -15rem;
+
+}
+
+
+.hear {
+
+  color: var(--primary-color);
+
+}
+
+
+.connecting {
+
+  color: var(--secondary-color);
+
+}
+
+
+.intro-text h1 {
+
+  font-size: 3rem;
+
+  margin-bottom: 1rem;
+
+}
+
+
+.hero p {
+
+  line-height: var(--line-height);
+  text-align: left;
+
+}
+
+
+.btn {
+
+  margin-top: 1rem;
+
+  display: inline-block;
+
+  padding: 0.8rem 0.6rem;
+
+  border: none;
+
+  font-size: 1.4rem;
+
+  border-radius: 5px;
+
+  color: #fff;
+
+}
+
+
+
+.red {
+
+  background-color: var(--secondary-color);
+
+  margin-right: 1.5rem;
+
+}
+
+
+
+.red:hover {
+
+  background-color: #f1262d;
+
+  color: #fff;
+
+}
+
+
+
+.blue {
+
+  background-color: var(--primary-color);
+
+}
+
+
+
+.blue:hover {
+
+  background-color: #095cf7;
+
+  color: #fff;
+
+}
+
+
+/* who are we */
+
+.about {
+
+  position: relative;
+
+  /*background: url("../images/jab-transformed.png") no-repeat top center/cover;*/
+
+  height: 600px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-direction: column;
+
+  gap: 1.5rem;
+
+  margin: 2rem auto -15rem;
+  
+}
+
+
+
+.about h3 {
+
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: -20px;
+  text-shadow: 2px 2px 2px #333;
+
+}
+
+
+.about p {
+
+  line-height: var(--line-height);
+  text-align: left;
+  max-width: 600px;
+
+}
+
+
+
+/* Package A & B*/
+
+.package{
+
+  padding: 1rem 0;
+  margin: 2rem auto -4rem;
+
+}
+
+.package h3{
+  font-size: 3em;
+  text-align: center;
+  
+
+}
+
+.pack{
+
+  margin: 2rem auto;
+
+  max-width: 1200px;
+
+  border-radius: 0.6rem;
+
+  background-color: #eaa320;
+
+  padding-left: 1em;
+
+  padding-right: 1em;
+
+  padding-top: 1em;
+
+  padding-bottom: 1em;
+
+
+}
+
+
+
+.packs{
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  place-items: center;
+
+  gap: 1rem;
+
+  
+
+}
+
+
+
+/* Terms & Conditions*/
+
+.tnc{
+
+  margin-top: 2rem;
+
+  padding: 1rem 0;
+
+}
+
+.tnc h3{
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 7rem;
+}
+
+.tc{
+
+  margin: 2rem auto;
+
+  max-width: 1200px;
+
+  border-radius: 1rem;
+
+  background-color: #eaa320;
+
+  padding-left: 1em;
+
+  padding-right: 1em;
+
+  padding-bottom: 1em;
+
+}
+
+.ttc{
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 2fr);
+
+  place-items: center;
+
+  gap: 1rem;
+
+}
+
+
+.bank{
+
+   /* Change the color and width as needed */
+
+  height: 100px; /* Set the height of the line */
+
+  margin: 0 auto; /* Center it if needed */
+
+}
+
+
+/* Subscriptions */
+.sub {
+
+  margin-top: 2rem;
+
+}
+
+
+
+.sub h3 {
+
+  text-align: center;
+
+}
+
+
+
+form {
+
+  text-align: center;
+
+  margin: 0.4rem 2rem;
+
+}
+
+
+
+/* Email Submission*/
+
+.email-sub {
+
+  padding: 0.2rem;
+
+  border: 1px solid var(--primary-color);
+
+  border-radius: 4px;
+
+}
+
+
+
+.email-sub:focus {
+
+  border: 1px solid var(--secondary-color);
+
+  outline: none;
+
+}
+
+
+
+.submit-btn {
+
+  background-color: var(--primary-color);
+
+  color: #fff;
+
+  padding: 0.3rem;
+
+  margin: 0 0.5rem;
+
+  border: none;
+
+  border-radius: 2px;
+
+  cursor: pointer;
+
+}
+
+
+
+.submit-btn:hover {
+
+  background-color: #095cf7;
+
+}
+
+
+
+.social {
+
+  text-align: center;
+
+  margin: 2rem;
+
+}
+
+
+
+.socicons {
+
+  font-size: 1.3rem;
+
+}
+
+
+
+/* Footer vele*/
+
+footer {
+
+  border-top: 1px solid #f1f1f1;
+
+  box-shadow: 0px -2px 3px #f1f1f1;
+
+  text-align: center;
+
+  padding: 2rem;
+
+}
+
+
